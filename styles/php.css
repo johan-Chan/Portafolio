@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFCDB;
+}
+.cuadrado1
+{
+    width: 100%;
+    height: 55px;
+    background: #EB415C;
+    border: 3px solid #FBD61A;
+}
+.cuadrado2
+{
+    width: 100%;
+    height: 55px;
+    background: #EB415C;
+    border: 3px solid #FBD61A;
+    position: fixed;
+    bottom: 0;
+}
+.img1
+{
+    text-align: center;
+}
+.img1 img
+{
+    width:12%;
+    height: 160px;
+    top: 8%;
+    left: 43%;
+    position: absolute;
+    background-color: transparent;
+}
+.img1 p
+{
+    position: absolute;
+    background-color: transparent;
+    top: 34%;
+    left: 46%;
+    font-size: 3.5vw;
+    font-family: M6;
+    color: #EB415C;
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.img1 p:hover 
+{
+    color: black;
+    transition: color 1s;
+}
+.circulo 
+{
+    position: absolute;
+    width: 7%;
+    height: 30px;
+    background-color: #aaaaa842;
+    border-radius: 40%;
+    left: 45.5%;
+    top: 39%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+.img2 img
+{
+    position: absolute;
+    width: 4%;
+    top: 10%;
+}
+.ini p
+{
+    font-size:1.6vw;
+    font-family: M6;
+    position: absolute; 
+    left: 5.7%;
+    top: 12%; 
+    color: #FFFCDB;
+    background-color: #EB415C;
+}
+.ini p:hover
+{
+    color: black;
+    transition: color 1s;
+}
+.circulo1
+{
+    position: absolute;
+    width: 15%;
+    height: 35px;
+    background-color: #EB415C;
+    border: 1px solid #FBD61A;
+    border-radius: 25%;
+    left: 4.5%;
+    top: 11.2%;
+}
+.pr1 img
+{
+    position: absolute;
+    width: 49%;
+    top: 43%;
+
+}
+.pr2 img
+{
+    position: absolute;
+    width: 49%;
+    top: 43%;
+    left: 51%;
+}
+
+.pr1 p
+{
+    position: absolute;
+    font-size: 3vw;
+    font-family: M1;
+    top: 35%;
+    left: 9%;
+    background-color: transparent;
+    color: #EB415C;
+    cursor: pointer;
+}
+.pr1 p:hover,
+.pr2 p:hover
+{
+    color: black;
+    transition: color 1s;
+}
+.pr2 p
+{
+    position: absolute;
+    font-size: 3vw;
+    font-family: M1;
+    top: 35%;
+    left: 60%;
+    background-color: transparent;
+    color: #EB415C;
+    cursor: pointer;
+}
+
+@keyframes flotar1 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes ancho {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

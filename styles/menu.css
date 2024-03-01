@@ -1,0 +1,385 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFCDB;
+}
+
+.cuadrado1
+{
+    width: 6%;
+    height: 657px;
+    background: #EB415C;
+    border: 3px solid #FBD61A;
+}
+.triangulo 
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 50px solid #FFFCDB;
+    background: transparent;
+    top: 10%;
+    left: 3%;
+}
+.triangulo2
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid #EB415C;
+    background: transparent;
+    top: 17%;
+    left: 5%;
+}
+.triangulo3
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 50px solid #FFFCDB;
+    background: transparent;
+    top: 40%;
+    left: 3%;
+}
+.triangulo4
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid #EB415C;
+    background: transparent;
+    top: 47%;
+    left: 5%;
+}
+.triangulo5
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 50px solid #FFFCDB;
+    background: transparent;
+    top: 80%;
+    left: 3%;
+}
+.triangulo6
+{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid #EB415C;
+    background: transparent;
+    top: 87%;
+    left: 5%;
+}
+.img1 img
+{  
+    width: 4%;
+    position: absolute; 
+    top: 1%; 
+    left: 6.1%;
+}
+.circulo1
+{
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    background-color: #EB415C;
+    border: 1px solid #FBD61A;
+    border-radius: 25%;
+    left: 10.5%;
+    top: 2.5%;
+}
+.ini p
+{
+    font-size:1.6vw;
+    font-family: M6;
+    position: absolute; 
+    left: 11.1%;
+    top: 3.2%; 
+    color: #FFFCDB;
+    background-color: #EB415C;
+}
+.ini p:hover
+{
+    color: black;
+    transition: color 1s;
+}
+.menu a
+{
+    font-size: 5vw;
+    font-family: M1;
+    color: #EB415C;
+    text-shadow: 5px 5px 5px #FBD61A;
+    text-decoration: none;
+    position: absolute; 
+    left: 16%;
+    top: 44%; 
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.menu a:hover
+{
+    color: black;
+    transition: color 1s;
+}
+.circulo2
+{
+    width: 205px;
+    height: 33px;
+    background-color: #aaaaa842;
+    border: 0px;
+    border-radius: 40%;
+    position: absolute;
+    left: 15%;
+    top: 52.5%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+.mini-conte
+{
+    position: absolute;
+    left: 58%;
+    width: 39.1%;
+    height: 98%;
+    background: #fbd51a;
+    border-radius: 4%;
+    box-shadow: 0 0 0 9px #fbd51a52;
+}
+
+.rectangulo1
+{
+    position: absolute;
+    width: 125%;
+    height: 20%;
+    right: 5%;
+    top: 4%;
+    background: #eb415dc5;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 0 0 0 6px #eb415d33;
+}
+.rectangulo1 img
+{
+    position: absolute;
+    width: 17%;
+    top: 8%;
+    left: 15%;
+    background-color: transparent;
+}
+.rectangulo1 p
+{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 31%;
+    left: 8%;
+    font-size: 4.2vw;
+    font-family: M6;
+    color: #FFFCDB;
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.circulo3 /*RECTANGULO 1*/
+{
+    width: 40%;
+    height: 33px;
+    background-color: #aaaaa842;
+    border: 0px;
+    border-radius: 40%;
+    position: absolute;
+    left: 38%;
+    top: 70%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+.rectangulo2
+{
+    position: absolute;
+    width: 140%;
+    height: 20%;
+    right: 5%;
+    top: 27%;
+    background: #eb415dc5;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 0 0 0 6px #eb415d33;
+}
+.rectangulo2 img
+{
+    position: absolute;
+    width: 16%;
+    top: 2%;
+    left: 13%;
+    background-color: transparent;
+}
+.rectangulo2 p
+{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 31%;
+    left: 8%;
+    font-size: 4.2vw;
+    font-family: M6;
+    color: #FFFCDB;
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.circulo4 /*RECTANGULO 2*/
+{
+    width: 50%;
+    height: 33px;
+    background-color: #aaaaa842;
+    border: 0px;
+    border-radius: 40%;
+    position: absolute;
+    left: 33%;
+    top: 70%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+.rectangulo3
+{
+    position: absolute;
+    width: 140%;
+    height: 20%;
+    right: 5%;
+    top: 50%;
+    background: #eb415dc5;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 0 0 0 6px #eb415d33;
+
+}
+.rectangulo3 img
+{
+    position: absolute;
+    width: 16%;
+    top: 8%;
+    left: 13%;
+    background-color: transparent;
+}
+.rectangulo3 p
+{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 31%;
+    left: 8%;
+    font-size: 4.2vw;
+    font-family: M6;
+    color: #FFFCDB;
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.circulo5 /*RECTANGULO 3*/
+{
+    width: 50%;
+    height: 33px;
+    background-color: #aaaaa842;
+    border: 0px;
+    border-radius: 40%;
+    position: absolute;
+    left: 33%;
+    top: 70%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+.rectangulo4
+{
+    position: absolute;
+    width: 125%;
+    height: 20%;
+    right: 5%;
+    top: 74%;
+    background: #eb415dc5;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 0 0 0 6px #eb415d33;
+}
+.rectangulo4 img
+{
+    position: absolute;
+    width: 17%;
+    top: 8%;
+    left: 12%;
+    background-color: transparent;
+}
+.rectangulo4 p
+{
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 31%;
+    left: 10%;
+    font-size: 4.2vw;
+    font-family: M6;
+    color: #FFFCDB;
+    animation: flotar1 3s ease-in-out infinite alternate;
+}
+.circulo6 /*RECTANGULO 4*/
+{
+    width: 48%;
+    height: 33px;
+    background-color: #aaaaa842;
+    border: 0px;
+    border-radius: 40%;
+    position: absolute;
+    left: 37%;
+    top: 70%;
+    animation: ancho 3s ease-in-out infinite alternate;
+}
+
+.rectangulo1:hover 
+{
+    animation: crecer 0.5s ease-in-out forwards;
+    background: #EB415C;
+    transition: background 1s;
+}
+.rectangulo2:hover 
+{
+    animation: crecer2 0.5s ease-in-out forwards;
+    background: #EB415C;
+    transition: background 1s;
+}
+.rectangulo3:hover {
+    animation: crecer2 0.5s ease-in-out forwards;
+    background: #EB415C;
+    transition: background 1s;
+}
+.rectangulo4:hover 
+{
+    animation: crecer 0.5s ease-in-out forwards;
+    background: #EB415C;
+    transition: background 1s;
+}
+
+@keyframes flotar1 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes ancho {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes crecer {
+    from {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+    to {
+        transform: scaleX(1.3);
+        transform-origin: right;
+    }
+}
+@keyframes crecer2 {
+    from {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+    to {
+        transform: scaleX(1.16);
+        transform-origin: right;
+    }
+}
+

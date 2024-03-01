@@ -1,0 +1,194 @@
+*
+{
+    margin : 2px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body 
+{
+    width: 150%;
+    height: 2200;
+    background-image:url('../imgs/ggs.jpg');
+    background-size: cover; 
+    
+}
+
+header 
+{
+    background-color: #f7f7f7;
+    padding: 1% 2%;
+    text-align: center;
+    border: 3px solid rgb(255, 196, 0);
+    margin: auto;
+    max-width: 82%;
+    border-radius: 50px;
+}
+
+header nav 
+{
+    background-color: rgb(126, 213, 242);
+    padding: 1% 1%;
+    border-radius: 50px;
+}
+
+header nav p 
+{
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', cursive;
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    color:rgb(10, 172, 226);
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.contenedor 
+{
+    background-color: rgba(238, 228, 228, 0.874);
+    padding: 2% 20%;
+    margin: 3% auto; /* Centra horizontalmente, elimina los márgenes laterales izquierdo y derecho */
+    border: 3px solid rgb(255, 196, 0);
+    max-width: 82%; /* Limita el ancho máximo del contenedor */
+    border-radius: 50px;
+    margin: auto;
+}
+
+/* Modificando .tabla */
+.tabla 
+{
+   margin-left: -47%;
+}
+
+/* Modificando .tabla table */
+.tabla table 
+{
+    width: 132%; /* Usa el ancho completo del contenedor padre */
+    background-color: rgb(255, 196, 0);
+    border-collapse: collapse;
+}
+
+/* Modificando .tabla p */
+.tabla p 
+{
+    font-size: 1.5rem; /* Cambia el tamaño de fuente a 1.5 rem (ajusta según tus necesidades) */
+    color: rgba(0, 0, 0, 0.882);
+    text-align: center;
+}
+
+/* Modificando .tabla td y .tabla th */
+.tabla td, .tabla th 
+{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;/* Añade espacio alrededor del contenido de celdas */
+    text-align: center;
+}
+
+/* Modificando .tabla tr:nth-child(even) */
+.tabla tr:nth-child(even) 
+{
+    background-color: rgb(126, 213, 242);
+}
+
+/* Modificando .tabla tr:hover */
+.tabla tr:hover 
+{
+    background-color: #ddd;
+}
+
+.botoned /* Boton editar */
+{
+    font-size: 1vw;
+    background-color: rgb(48, 194, 19);
+    color: white;
+    padding: 15% 22%;
+    margin-left: -12%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+  
+.botoned:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+.botonb  /* Boton Borrar */
+{
+    font-size: 1vw;
+    background-color: rgb(231, 74, 12);
+    color: white;
+    padding: 15% 22%;
+    margin-left: -15%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.botonh  /* Boton PDF individual */
+{
+    font-size: 1vw;
+    background-color: rgb(219, 113, 223);
+    color: white;
+    padding: 15% 22%;
+    margin-left: -12%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+  
+.botonh:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+  
+.botonb:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+
+.botone  /* Boton Insertar */
+{
+    font-size: 1.3vw;
+    background-color: rgb(48, 194, 19);
+    color: white;
+    padding: 1% 2%;
+    margin-left: 18%;
+    border: none;
+    cursor: pointer;
+    border: 3px solid rgb(255, 196, 0);
+    text-decoration: none;
+    float: left;
+    margin-top: -3.45%;
+    border-radius: 50px;
+}
+
+.botone:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+.botoni /* Boton Volver Usuarios */
+{
+    font-size: 1.3vw;
+    background-color: rgb(231, 74, 12);
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    cursor: pointer;
+    border: 3px solid rgb(255, 196, 0);
+    text-decoration: none;
+    float: right;
+    margin-right: 83.1%;
+    border-radius: 50px;
+
+}
+
+.botoni:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+

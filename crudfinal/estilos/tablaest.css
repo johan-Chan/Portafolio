@@ -1,0 +1,173 @@
+*
+{
+    margin : 2px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body 
+{
+    width: 100%;
+    height: 2200;
+    background-image:url('../imgs/ggs.jpg');
+    background-size: cover; 
+    
+}
+
+header 
+{
+    background-color: #f7f7f7;
+    padding: 1% 2%;
+    text-align: center;
+    border: 3px solid rgb(255, 196, 0);
+    max-width: 60%;
+    border-radius: 50px;
+    margin-left: 20%;
+}
+
+header nav 
+{
+    background-color: rgb(126, 213, 242);
+    padding: 1% 1%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+header nav p 
+{
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', cursive;
+    background-color: rgb(255, 196, 0);
+    color:rgb(10, 172, 226);
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.contenedor 
+{
+    background-color: rgba(238, 228, 228, 0.874);
+    padding: 2% 20%;
+    margin: 3% auto; /* Centra horizontalmente, elimina los márgenes laterales izquierdo y derecho */
+    border: 3px solid rgb(255, 196, 0);
+    max-width: 50%; /* Limita el ancho máximo del contenedor */
+    border-radius: 50px;
+    margin: auto;
+
+}
+
+/* Modificando .tablas */
+.tablas 
+{
+    margin-left: -99%;
+}
+
+/* Modificando .tablas table */
+.tablas table 
+{
+    background-color: rgb(255, 196, 0);
+    border-collapse: collapse;
+}
+
+/* Modificando .tablas p */
+.tablas p 
+{
+    font-size: 1.5rem; /* Cambia el tamaño de fuente a 1.5 rem (ajusta según tus necesidades) */
+    color: rgba(0, 0, 0, 0.882);
+    text-align: center;
+}
+
+/* Modificando .tablas td y .tablas th */
+.tablas td, .tablas th 
+{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 15px; /* Añade espacio alrededor del contenido de celdas */
+    text-align: center;
+}
+
+/* Modificando .tablas tr:nth-child(even) */
+.tablas tr:nth-child(even) 
+{
+    background-color: rgb(126, 213, 242);
+}
+
+/* Modificando .tablas tr:hover */
+.tablas tr:hover 
+{
+    background-color: #ddd;
+}
+
+.botoned /* Boton editar */
+{
+    font-size: 1vw;
+    background-color: rgb(48, 194, 19);
+    color: white;
+    padding: 15% 22%;
+    margin-left: -12%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+  
+.botoned:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+.botonb  /* Boton Borrar */
+{
+    font-size: 1vw;
+    background-color: rgb(231, 74, 12);
+    color: white;
+    padding: 15% 22%;
+    margin-left: -12%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.botonb:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+
+.botone  /* Boton Insertar */
+{
+    font-size: 1.3vw;
+    background-color: rgb(48, 194, 19);
+    color: white;
+    padding: 1% 2%;
+    margin-left: 18%;
+    border: none;
+    cursor: pointer;
+    border: 3px solid rgb(255, 196, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+
+.botone:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+.botoni /* Boton Volver usuarios */
+{
+    font-size: 1.3vw;
+    background-color: rgb(231, 74, 12);
+    color: white;
+    padding: 1% 1%;
+    border: none;
+    cursor: pointer;
+    border: 3px solid rgb(255, 196, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 25%;
+}
+
+.botoni:hover 
+{
+    background-color: rgb(255, 196, 0);
+}

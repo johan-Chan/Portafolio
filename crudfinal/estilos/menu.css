@@ -1,0 +1,90 @@
+*
+body 
+{
+    background-image: url('../imgs/ggs.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.contenedor
+{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000%;
+}
+
+.contenido 
+{
+    text-align: center;
+    margin-top: 220px;
+}
+
+.menu 
+{
+    font-size: 4vw;
+    color:rgb(75, 165, 195);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', cursive;
+    text-align: center;
+    margin-top: 32%;
+    border-radius: 50px;
+    background-color: rgb(255, 196, 0);
+}
+  
+.boton 
+{
+    font-size: 1.5vw;
+    background-color: rgb(75, 165, 195);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: 3px solid rgb(255, 196, 0);
+    float:none;
+    text-decoration: none;
+    border-radius: 50px;
+}
+  
+.boton:hover 
+{
+    background-color: rgb(255, 196, 0);
+}
+
+.caja
+{
+    background-color: rgb(255, 255, 255);
+    padding: 1% 10%;
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid rgb(255, 196, 0);
+    border-radius: 50px;
+}
+
+.caja2
+{
+    background-color:rgb(145, 205, 225);
+    padding: 10% 8%;
+    margin-top: 1%;
+    margin-left: 16%;
+    text-align: center;
+    display: inline-block;
+    margin: 5 auto;
+    border: 3px solid rgb(255, 196, 0);
+    border-radius: 50px;
+}
+
+.redes
+{
+    margin-top: 6%;
+}
+
+
+
+
+  
+  
+  
+  
+
+      
+

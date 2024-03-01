@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../iconos/ajolote.png">
+    <link rel="stylesheet" href="../styles/acercademi.css">
+    <link rel="stylesheet" href="../styles/fuentes.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <article>
+        <div class="contenedor">
+            <div class="cuadrado1"></div>
+            <div class="img2">
+                <a href="menu.html">
+                    <img src="../iconos/atras.png" alt="conejito">
+                </a>
+            </div>
+            <div class="circulo1"></div>
+            <a href="menu.html">
+                <div class="ini"><p>Volver al Inicio</p></div>
+            </a>
+            <div class="img1">
+                <img src="../iconos/intimidad.png" alt="" >
+                <p>ACERCA DE MI</p>
+                <div class="circulo"></div>
+            </div>
+            <div id="txt" class="info">
+                <div class="txt1">
+                    <p>--> INFO <--</p>
+                </div>
+                <div class="txt2">
+                    <p>Hola Soy Johan Santiago Pinzón, tengo 19 años <br> Actualmente estoy estudiando Análisis y Desarrollo de Software (ADSO). <br> Comencé mi carrera en el año 2023 <br>Mi interés por la programación comenzó hace algún tiempo, y ahora estoy emocionado de presentarles mi portafolio. <br>A lo largo del tiempo de mi estudio e podido desarrollar diferentes habilidades (Aun no terminadas) como lo pueden ser los lenguajes php, python y base de datos con MYSQL(XAMPPP) y postgreSQL Y en este momento me encuentro desarrollando un proyecto del sena sobre contabilidad </p>
+                </div>
+            </div>
+
+            <div class="cuadrado2"></div>
+
+            <script>
+                var txt1 = document.querySelector('.txt1');
+                var txt2 = document.querySelector('.txt2');
+              
+                txt1.addEventListener('click', function() {
+                  if (txt2.style.display === 'none') {
+                    txt2.style.display = 'block'; // Muestra el texto
+                  } else {
+                    txt2.style.display = 'none'; // Oculta el texto
+                  }
+                });
+              </script>  
+</body>
+</html>

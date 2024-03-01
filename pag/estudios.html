@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../iconos/ajolote.png">
+    <link rel="stylesheet" href="../styles/estudios.css">
+    <link rel="stylesheet" href="../styles/fuentes.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <article>
+        <div class="contenedor">
+            <div class="cuadrado1"></div>
+            <div class="img2">
+                <a href="menu.html">
+                    <img src="../iconos/atras.png" alt="conejito">
+                </a>
+            </div>
+            <div class="circulo1"></div>
+            <a href="menu.html">
+                <div class="ini"><p>Volver al Inicio</p></div>
+            </a>
+            <div class="img1">
+                <img src="../iconos/intimidad.png" alt="" >
+                <p>ACERCA DE MI</p>
+                <div class="circulo"></div>
+            </div>
+            <div id="txt" class="info">
+                <div class="txt1">
+                    <p>--> INFO <--</p>
+                </div>
+                <div class="txt2">
+                    <p>bachillerato--<br>institucion educativa general santander<br>año--2021<br>----------------------------------------------------<br>Tecnologico<br>sena<br>año--En proceso</p>
+                    </div>
+            </div>
+
+            <div class="cuadrado2"></div>
+
+            <script>
+                var txt1 = document.querySelector('.txt1');
+                var txt2 = document.querySelector('.txt2');
+              
+                txt1.addEventListener('click', function() {
+                  if (txt2.style.display === 'none') {
+                    txt2.style.display = 'block'; // Muestra el texto
+                  } else {
+                    txt2.style.display = 'none'; // Oculta el texto
+                  }
+                });
+              </script>  
+</body>
+</html>

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../iconos/ajolote.png">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/fuentes.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <article>
+        <div class="contenedor">
+            <div class="cuadrado1"></div>
+            <div class="img2">
+                <a href="menu.html">
+                    <img src="../iconos/atras.png" alt="conejito">
+                </a>
+            </div>
+            <div class="circulo1"></div>
+            <a href="menu.html">
+                <div class="ini"><p>Volver al Inicio</p></div>
+            </a>
+            <div class="img1">
+                <img src="../iconos/23-2-2024 at 9_32_39.png" alt="" >
+                <p>Contacto</p>
+                <div class="circulo"></div>
+            </div>
+            <div class="rds">
+                <div class="rd1">
+                    <img id="imagen1" src="../iconos/whatsapp.png" alt="">
+                    <div id="txt1" class="txt1"><a target="_blank" href="">+57 3014108502</a></div>
+                </div>
+                <div class="rd2">
+                    <img id="imagen2" src="../iconos/facebook.png" alt="">
+                    <div id="txt2" class="txt2"><a target="_blank" href="">Johan Santyago</a></div>
+                </div>
+                <div class="rd3">
+                    <img id="imagen3" src="../iconos/gorjeo (1).png" alt="">
+                    <div id="txt3" class="txt3"><a target="_blank" href="">Johan_Pinzon</a></div>
+                </div>
+                <div class="rd4">
+                    <img id="imagen4" src="../iconos/instagram.png" alt="">
+                    <div id="txt4" class="txt4"><a target="_blank" href="https://www.instagram.com/johan_santyago/">Johan Santyago</a></div>
+                </div>
+            </div>
+            <div class="cuadrado2"></div>
+            
+            <script>
+                var texto1 = document.getElementById('txt1');
+                var texto2 = document.getElementById('txt2');
+                var texto3 = document.getElementById('txt3');
+                var texto4 = document.getElementById('txt4');
+            
+                function alternarTexto(texto) {
+                    if (texto.style.display === 'none') {
+                        texto.style.display = 'block';
+                    } else {
+                        texto.style.display = 'none';
+                    }
+                } 
+                document.addEventListener('DOMContentLoaded', function() {
+                    texto1.style.display = 'none';
+                    texto2.style.display = 'none';
+                    texto3.style.display = 'none';
+                    texto4.style.display = 'none';
+            
+                    document.getElementById('imagen1').addEventListener('click', function() {
+                        alternarTexto(texto1);
+                    });
+                    document.getElementById('imagen2').addEventListener('click', function() {
+                        alternarTexto(texto2);
+                    });
+                    document.getElementById('imagen3').addEventListener('click', function() {
+                        alternarTexto(texto3);
+                    });
+                    document.getElementById('imagen4').addEventListener('click', function() {
+                        alternarTexto(texto4);
+                    });
+                });
+            </script>
+</body>
+</html>
